@@ -1,0 +1,55 @@
+.quotes {
+    background: #F5F5F5;
+    padding: 70px 0 98px;
+}
+
+.quotes__icon {
+    margin-bottom: 66px;
+    text-align: center;
+    position: relative;
+}
+
+.quotes__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 124px;
+    flex-wrap: wrap;
+}
+
+.quote {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.quotes__icon::after{
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 215px;
+    background: rgba(0, 0, 0, 0.04);
+    top: 137px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.quote__p {
+    font-family: 'Vollkorn';
+    font-size: 26px;
+    font-weight: 400;
+    color: #333333;
+    padding-bottom: 24px;
+    text-align: center;
+}
+
+.quote__h {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-weight: 400;
+    color: #ABABAB;
+    padding-top: 10px;
+    text-align: center;
+}
